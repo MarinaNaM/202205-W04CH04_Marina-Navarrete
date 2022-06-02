@@ -20,7 +20,7 @@ describe('Given the component Keyboard', () => {
 
     describe('When passing an array of strings', () => {
         test('Then a number of numbers should be in the document', () => {
-            render(<Keyboard item={mockKeyboard} />);
+            render(<Keyboard />);
 
             expect(screen.getAllByRole('listitem')).toHaveLength(
                 mockKeyboard.length
