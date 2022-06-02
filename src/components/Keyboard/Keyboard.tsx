@@ -1,6 +1,6 @@
 import React from 'react';
-import { numbers } from './data/numbers';
-import { Key } from './key/Key';
+import { numbers } from '../data/numbers';
+import { Key } from '../key/Key';
 export function Keyboard() {
     return (
         <>
